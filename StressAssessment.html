@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stress Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="logo.png" alt="myHealthvalet">
+    </div>
+    <nav>
+        <div class="navbar">
+            <a href="#home">Profile</a>
+            <div class="dropdown">
+                <button class="dropbtn">Employees
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Employee list</a>
+                  <a href="#">Department</a>
+                </div>
+              </div>
+            
+            <div class="dropdown">
+              <button class="dropbtn">Health Assessments
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="file:///C:/Users/cherry/Desktop/new/DiagnosticAssessment.html">Diagnostic Assessment</a>
+                <a href="file:///C:/Users/cherry/Desktop/new/HealthRiskAssessments.html">Health Risk Assessments</a>
+                <a href="file:///C:/Users/cherry/Desktop/new/Employeemonitoring.html">Employee monitoring</a>
+                <a href="file:///C:/Users/cherry/Desktop/new/StressAssessment.html">Stress Assessments</a>
+              </div>
+            </div>
+            <a href="#news">Reports</a>
+          </div>
+    </nav>
+</header>
+    <main class="container">
+        <section class="stress-assessment">
+            <h1>Stress Assessment</h1>
+            <div class="filters">
+                <select name="associates">
+                    <option value="all">Associated</option>
+                    <!-- Add more options as needed -->
+                </select>
+                <input type="text" placeholder="Name/ID">
+                <input type="text" placeholder="Mobile No">
+                <input type="date">
+                <select name="status">
+                    <option value="completed">Completed</option>
+                    <!-- Add more options as needed -->
+                </select>
+                <button>Select End Date</button>
+                <select id="designation" name="designation">
+                  <option value="designation">Designation</option>
+                  <option value="designation">Driver-Vama Infracreation</option>
+                  <option value="designation">Driver-Geetanjali Bulk</option>
+                  <option value="designation">Driver-Praxair</option>
+                  <option value="designation">Driver-Rajesh Roadlines</option>
+                  <option value="designation">Driver-Jamnagar Roadways</option>
+                  <option value="designation">Driver-Transportation Corporation</option>
+                  <option value="designation">Driver-Rohith Transport</option>
+                  <option value="designation">Driver-Express Roadways</option>
+                  <option value="designation">Driver-Bhatia Logistics</option>
+                  <option value="designation">Driver-TCI Freight</option>
+                  <option value="designation">Driver-Jayanthi Mech.and Eng</option>
+                  <option value="designation">Driver-Vishwanath Transport</option>
+                  <option value="designation">Driver-Agarwal Packers</option>
+                  <option value="designation">Driver-Golden Bulk Carriers</option>
+                  <option value="designation">Driver-Sri Murugan Transport</option>
+                  <option value="designation">Driver-A D Behere Transport</option>
+              </select>
+              <select id="department" name="department">
+                <option value="department">Department</option>
+                <option value="health-plan">Trucking and Distributions</option>
+                
+            </select>
+            </div>
+            <div class="assigned-test">
+                <h2>Associates List (0)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name/Designation</th>
+                            <th>Department/Location</th>
+                            <th>Email ID/Mobile No</th>
+                            <th>Completed Date/Due Date</th>
+                            <th>Stress Score</th>
+                            <th>Remarks</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="7">Sorry, No results found.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <img src="./Images/StressAssessment.png" class="endImage"/>
+    <script src="script.js"></script>
+</body>
+</html>
